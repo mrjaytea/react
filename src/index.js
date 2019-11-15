@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// For using the icon font, font awesome
+import 'font-awesome/css/font-awesome.css';
+// For using the Bootstrap Social buttons
+import 'bootstrap-social/bootstrap-social.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
